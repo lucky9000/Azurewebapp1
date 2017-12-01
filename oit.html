@@ -11,15 +11,34 @@
 			border-style: dashed;
 			border-color: #FF0000;
 			}
+			button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+			button.accordion.active, button.accordion:hover {
+    background-color: #ccc; 
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+			
 			</style>
 	<head>
 		<title>Contact Me</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body id="top">
 
@@ -29,23 +48,17 @@
                 <p>Portfolio</p>
                 <p>Here you can see one of the project me and my mentor made</p>
 			</header>
-
+		</style>
 		<!-- Main -->
 			<div id="main">      
 					<section id="two">
 						<h2>Out in Tech work</h2>
 						<p>Here is my bot made from Microsoft Azure I have included many responses for the bot to respond to.
 						<br> click here to see more 
-						<div class="container">
-							<h2>Simple Collapsible</h2>
-							<p>Click on the button to toggle between showing and hiding content.</p>
-							<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
-							<div id="demo" class="collapse">
-							  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-							  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							</div>
-						  </div>
+						<button class="accordion">Section 1</button>
+						<div class="panel">
+						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
 						</p>
 						<div id="center"><iframe src='https://webchat.botframework.com/embed/ftbbot?s=jsISiA9YRNo.cwA.fwA.MzUqItUWpAJ7-cf9y_wIxrbLjFQe0wDIJ3ttWPW89Gk'width="100%" height="65%"></iframe> </div>
 						</div>
