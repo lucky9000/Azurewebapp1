@@ -2068,11 +2068,11 @@
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 200%;
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius: 200%;
 		}
 
 			.image.avatar:before {
