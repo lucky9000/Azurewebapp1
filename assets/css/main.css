@@ -2076,7 +2076,7 @@
 		}
 
 			.image.avatar:before {
-				display: circle;
+				display: none;
 			}
 
 			.image.avatar img {
