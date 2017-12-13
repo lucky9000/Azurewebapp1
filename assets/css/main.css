@@ -2075,15 +2075,6 @@
 			border-radius: 50%;
 		}
 
-			.image.avatar:before {
-				display: none;
-			}
-
-			.image.avatar img {
-				border-radius: 50%;
-				width: 100%;
-			}
-
 /* List */
 
 	ol {
@@ -2521,7 +2512,7 @@
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 8.25em;
+			width: 6.25em;
 		}
 
 /* Footer */
