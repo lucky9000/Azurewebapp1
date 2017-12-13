@@ -2068,7 +2068,7 @@
 		}
 
 			.image.fit img {
-				width: 40px;
+				width: 100%;
 			}
 
 		.image.avatar {
